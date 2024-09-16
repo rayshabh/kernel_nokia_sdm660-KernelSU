@@ -116,3 +116,9 @@ all.config
 
 # fetched Android config fragments
 android/configs/android-*.cfg
+
+# Ignore output & some tools dir. after compiling the kernel
+# using build.sh
+KERNEL_BUILDS/
+out/
+toolchains/
